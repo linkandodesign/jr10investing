@@ -1,0 +1,257 @@
+html,
+body {
+  background-color: #1b1b19;
+  color: #c4c4c4;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: "Mulish", sans-serif;
+  font-size: 2.375rem;
+  color: #fff;
+  font-weight: 800;
+}
+
+h5 {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.label-card {
+  font-family: "Mulish", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+p {
+  color: #c4c4c4;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  margin-top: 4rem;
+  min-height: 400px;
+}
+
+.video-capa {
+  position: absolute;
+  right: 0;
+  width: 48%;
+}
+
+.mt-24 {
+  margin-top: 1.5rem;
+}
+
+.mt-28 {
+  margin-top: 1.75rem;
+}
+
+.mt-46 {
+  margin-top: 2.875rem;
+}
+
+.mt-60 {
+  margin-top: 3.75rem;
+}
+
+.mt-80 {
+  margin-top: 5rem;
+}
+
+.btn-tema {
+  transition: all 0.3s;
+  border: none;
+  outline: none;
+  background-color: #ffe001;
+  border-radius: 4px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  color: #181815;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+}
+
+.btn-tema:hover {
+  background-color: #bfa800;
+}
+
+.card {
+  background: linear-gradient(180deg, #242424 0%, #1B1B19 100%);
+  border: 1px solid #242424;
+  border-radius: 20px;
+  padding: 3.5rem 2.8125rem;
+  text-align: left;
+  z-index: 2;
+}
+
+.icon {
+  height: 48px;
+  width: auto;
+}
+
+.icone-seta::after {
+  display: inline-flex;
+  content: '';
+  background-image: url('../img/seta.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 18px;
+  height: 100%;
+  vertical-align: bottom;
+  margin-left: 8px;
+  transition: all 0.3s;
+}
+
+.icone-seta:hover::after {
+  margin-left: 16px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  line-height: 16px;
+  width: fit-content;
+}
+
+li {
+  list-style-image: url("../img/ok.svg");
+  padding-bottom: 1rem;
+}
+
+ul>li {
+  color: #c4c4c4;
+}
+
+.card-modulo {
+  background-color: #181815;
+  color: #c4c4c4;
+  padding: 18px 26px;
+}
+
+.card-modulo label {
+  color: #747473;
+  font-weight: 800;
+}
+
+.section-header,
+.section-bonus,
+.section-milhas {
+  padding: 7.5rem 0;
+}
+
+.badge-linha {
+  height: 2px !important;
+  width: 100px;
+  background-color: #ffe001;
+}
+
+.linha {
+  height: 2px;
+  width: 100%;
+  background-color: #242424;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../img/icon-chevron-down.svg) !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 14px;
+  height: 8px;
+}
+
+.accordion-button::after {
+  background-image: url(../img/icon-chevron-down.svg) !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 14px;
+  height: 8px;
+}
+
+.accordion {
+  --bs-accordion-bg: #1b1b19;
+  --bs-accordion-border-color: transparent;
+  --bs-accordion-border-width: 0;
+  --bs-accordion-border-radius: 0;
+  --bs-accordion-inner-border-radius: none;
+  --bs-accordion-btn-color: #747473;
+  --bs-accordion-btn-padding-x: 1.625rem;
+  --bs-accordion-btn-padding-y: 1.25rem;
+  --bs-accordion-body-padding-x: 1.625rem;
+  --bs-accordion-body-padding-y: 1.4375rem;
+  --bs-accordion-btn-focus-border-color: transparent;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-active-color: #fff;
+}
+
+.accordion-button {
+  color: #fff;
+  background-color: #181815;
+  font-weight: 700;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #181815;
+  box-shadow: none;
+  font-weight: 700;
+}
+
+.accordion-body label {
+  font-weight: 700;
+}
+
+.link-perguntas {
+  font-weight: 700;
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  background-color: #181815;
+}
+
+footer a {
+  font-weight: 700;
+}
+
+footer a, footer p {
+  color: #747473;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 991.98px) {
+  section, header {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+
+  .video-capa {
+    right: 0.75rem;
+    left: 0.75rem;
+    width: 93%;
+  }
+
+  .btn-tema {
+    width: 100%;
+  }
+
+  .section-header {
+    margin-top: 340px;
+  }
+}
